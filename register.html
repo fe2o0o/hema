@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master-css/all.css">
+    <link rel="stylesheet" href="master-css/bootstrap.min.css">
+    <link rel="stylesheet" href="master-css/index.css">
+    <title>Register</title>
+</head>
+<body>
+    <header id="header-register" class="vh-100 pt-5">
+        <div class="reg container text-center py-5 px-5 mx-auto">
+            
+            <h1 class="pb-4">Smart Login System</h1>
+            <div class="pb-3">
+                <input id="regName" type="text" placeholder="Enter Your Name" class="form-control bg-transparent text-light ">
+                <p id="nameErorr" class="text-danger fw-bolder d-none "></p>
+            </div>
+            <div class="pb-3">
+                <input id="regMail" type="email" placeholder="Enter Your E-mail" class="form-control bg-transparent text-light">
+                <p id="mailErorr" class="text-danger fw-bolder d-none "></p>
+            </div>
+            <div class="pb-4">
+                <input id="regPass" type="password" placeholder="Enter Your Password" class="form-control bg-transparent text-light">
+                <p id="passErorr" class="text-danger fw-bolder d-none "></p>
+            </div>
+            <p id="suc" class="text-success d-none fs-4 fw-bold">Success
+                <i class="fa-solid fa-user-check text-success"></i>
+            </p>
+            <div class="form-control p-0 bg-transparent border-0">
+                <button class="signbut btn w-100 text-white">Sign Up</button>
+            </div>
+            <div class="py-2">
+                <p class="text-white fw-bold">
+                    You have an account?
+                    <a href="index.html" class="text-decoration-none text-white">Sign In</a>
+                </p>
+            </div>
+        </div>
+    </header>
+    <script src="master-js/bootstrap.bundle.min.js"></script>
+    <script src="master-js/index.js"></script>
+</body>
+</html>

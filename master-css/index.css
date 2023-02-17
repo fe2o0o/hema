@@ -1,0 +1,66 @@
+#header-register{
+    background-color: #24353f;
+}
+
+#home{
+    background-color: #24353f;
+}
+
+.reg,
+.log,
+.home{
+    background-color: #24353f;
+    box-shadow: 0px 0px 20px 0px black;
+    width: 60%;
+}
+
+.nav-home{
+    background-color: #24353f;
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+.reg h1,
+.log h1,
+.phome{
+    color: #17a2b8;
+}
+
+.signbut,
+.loginbut,
+.outbut{
+    border: 1px solid #17a2b8 !important;
+    color: #17a2b8 !important;
+    outline: 0 !important;
+
+}
+
+.outbut:hover{
+        background-color: #17a2b8 !important;
+            border: 1px solid #17a2b8 !important;
+            color: white !important;
+}
+
+.signbut:hover{
+    background-color:#17a2b8 !important;
+    border: 1px solid #17a2b8 !important;
+    color: white !important;
+}
+
+.loginbut:hover{
+    background-color: #17a2b8 !important;
+    border: 1px solid #17a2b8 !important;
+    color: white !important;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0 !important;
+    border-color: #17a2b8 !important;
+}
+
+p a:hover{
+    text-decoration: underline !important;
+}
+
+#headerLogin{
+    background-color: #24353f;
+}
